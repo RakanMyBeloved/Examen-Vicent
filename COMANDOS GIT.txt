@@ -3,8 +3,13 @@ git status -> Comprueba el estado del git
 git add -> Añade tracking al archivo especificado
 git add --all//-A//. -> Añade tracking a todos los archivos del directorio (que no esten siendo ignorados)
 git commit -m "placeholder" -> Hace commit a todos los archivos que tengan tracking, el -m " " es el mensaje
-
-
+git diff -> Te enseña cuales han sido los cambios de los archivos cambiados
+git restore nombrearchivo -> quita el archivo del stagin area y lo devuelve al working area
+git rm "nombre" -> borras un archivo a traves de git
+git restore "nombre"-> restaura un archivo de los que git ve que se han sufrido cambios
+git mv "nombre1" "nombre2" -> Cambia el nombre del archivo
+git log -> Enseña un log de todos los commit que se han hecho
+git log --oneline -> Enseña un log de todos los comits hechos pero resumidos
 
 
 
