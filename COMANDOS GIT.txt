@@ -1,6 +1,8 @@
 git init -> Empieza el git en la carpeta en la que estas
-git Status -> Comprueba el estado del git
-git Add -> Añade tracking al archivo especificado
+git status -> Comprueba el estado del git
+git add -> Añade tracking al archivo especificado
+git add --all//-A//. -> Añade tracking a todos los archivos del directorio (que no esten siendo ignorados)
+git commit -m "placeholder" -> Hace commit a todos los archivos que tengan tracking, el -m " " es el mensaje
 
 
 
