@@ -1,0 +1,10 @@
+git init -> Empieza el git en la carpeta en la que estas
+git Status -> Comprueba el estado del git
+git Add -> Añade tracking al archivo especificado
+
+
+
+
+
+
+.gitignore -> Archivo para especifcar que archivos queremos que ignore git (Se escribe dentro de el lo que queremos que ignore)
