@@ -10,6 +10,14 @@ git restore "nombre"-> restaura un archivo de los que git ve que se han sufrido 
 git mv "nombre1" "nombre2" -> Cambia el nombre del archivo
 git log -> Enseña un log de todos los commit que se han hecho
 git log --oneline -> Enseña un log de todos los comits hechos pero resumidos
+git branch -> Enseña todas las ramas que hay
+git branch nombre -> Crea una rama con el nombre especificado
+git switch nombre -> Te mueve a la rama seleccionada
+git switch -c nombre -> Te crea y te mueve a la rama nombre
+git merge -m "mensaje" ramaescogida -> Hace que los cambios hechos en la ramaescogida se apliquen a la rama en la que te encuentras
+git branch -d ramaescogida -> elimina la rama ramaescogida
+
+
 
 
 
